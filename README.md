@@ -21,3 +21,13 @@ The files included in this project are as follows:
 <b><i>sql_queries.py</b></i>: This Python file contains all our sql queries, and is directly integrated with the "etl.py", "etl.ipynb", and "create_tables.py" files.
 
 <b><i>test.ipynb</b></i>: displays the first few rows of each table to let us check on the database.
+
+<b>How to Run:</b>
+
+Open a new Terminal and run the following lines of code to accomplish to accompanying tasks.
+
+Run <b><i>python create_tables.py</b></i> to create the database and tables.
+
+Run <b><i> python etl.py</b></i> to process for loading, extracting and inserting the data.
+
+Run the blocks of code within <b><i>test.ipynb</b></i> to confirm the creation of database and columns.
